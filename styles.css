@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.subheading {
+    font-size: 30px;
+    text-shadow: 2px 2px 6px black;
+}
+
+.highlight {
+    background: black;
+    padding: 5px 5px;
+    color: whitesmoke;
+}
+
+.hero-heading {
+    background: black;
+    padding: 10px 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+#hero-section {
+    background-image: url("kyoto-hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#activities-section {
+    background: wheat;
+    background: linear-gradient(0deg, rgba(245,222,179,1) 0%, rgba(222,184,135,1) 100%);
+}
+
+.hero-content {
+    padding: 100px 0;
+}
+
+.top-three-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.activity-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    padding: 0 20px 40px 20px;
+}
+
+.activity-wrap img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0px 3px 10px Peru;
+}
+
+#yourguide-section {
+    background: DarkSlateGray;
+    background: linear-gradient(180deg, rgba(47,79,79,1) 0%, rgba(95,158,160,1) 100%);
+}
+
+.yourguide-container {
+    background: wheat;
+    background: linear-gradient(180deg, rgba(245,222,179,1) 0%, rgba(222,184,135,1) 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.yourguide-container img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0px 3px 10px Peru;
+    margin: 40px;
+}
+
+.yourguide-details {
+    max-width: 300px;
+}
